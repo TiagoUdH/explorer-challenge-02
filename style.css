@@ -1,0 +1,86 @@
+:root {
+  --black: #3F3D56;
+  --pink: #EE24FF;
+  --gray: #828282;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: var(--gray);
+
+  text-align: center;
+}
+
+#hero {
+  margin: 64px 0 32px;
+}
+
+main {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+
+  margin-bottom: 16px;
+  font-size: 2rem;
+}
+
+main h1 strong {
+  font-weight: 700;
+  color: var(--pink);
+}
+
+main p {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+main p span {
+  font-weight: bold;
+}
+
+#enterprise {
+  color: var(--gray);
+}
+
+main h1,
+main p span {
+  color: var(--black);
+}
+
+main p:last-child {
+  margin-top: 32px;
+}
+
+#wave {
+  width: 100vw;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  text-align: start;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+footer a {
+  text-decoration: none;
+
+  font-weight: bold;
+  color: var(--black);
+}
+
+footer a+a {
+  margin-left: 42px;
+}
